@@ -102,8 +102,7 @@ The application model is often called the domain model. The domain model typical
 
 In addition to the view model, some apps use a binding model or input model to pass data between the Razor Pages page model class and the browser. 
 
-Consider the following `StudentVM` view model:
-
+Create ViewModels/StudentVM.cs with the following code:
 [!code-csharp[Main](intro/samples/cu50/ViewModels/StudentVM.cs?name=snippet)]
 
 The following code uses the `StudentVM` view model to create a new student:
